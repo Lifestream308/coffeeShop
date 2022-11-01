@@ -52,7 +52,7 @@ body {
 }
 .navAnchor:hover {
     text-decoration: underline;
-    font-weight: bolder;
+    font-weight: bold;
 }
 .marginRight1 {
     margin-right: 3%;
@@ -101,7 +101,7 @@ body {
     border-radius: 2px;
     font-weight: bolder;
     font-size: large;
-    margin: 6px;
+    margin: 16px 6px 0px 6px;
 }
 .button1:hover {
     background-color: white;
