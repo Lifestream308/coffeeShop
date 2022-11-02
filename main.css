@@ -108,6 +108,14 @@ body {
     color: rgb(184, 18, 18);
     transition: .3s;
 }
+.drinkItem {
+    width: 10rem;
+    text-align: center;
+}
+.drinkItem img {
+    border-radius: 50%;
+    width: 100%;
+}
 
     
 /* Media Queries */
@@ -117,6 +125,12 @@ body {
       align-items: center;
     }
   }
+@media (max-width: 750px) {
+    .drinkContainer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
 
 @media only screen and (max-width: 680px) {
     .standardNav a {
