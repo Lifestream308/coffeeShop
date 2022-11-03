@@ -111,6 +111,8 @@
     location.href = "#menu";
     }
 
+    var slideInterval = setInterval(plusSlides, 4000, 1)
+
     let slideIndex = 1;
     showSlides(slideIndex);
 
@@ -123,6 +125,8 @@
     }
 
     function showSlides(n) {
+    clearInterval(slideInterval)
+    slideInterval = setInterval(plusSlides, 4000, 1)
     let i;
     let slides = document.getElementsByClassName("mySlides");
     let dots = document.getElementsByClassName("dot");
@@ -138,7 +142,6 @@
     dots[slideIndex-1].className += " active";
     }
 
-    const slideInterval = setInterval(plusSlides, 5000, 1)
 
 
     </script>
