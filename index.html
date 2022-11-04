@@ -13,15 +13,28 @@
         <div class="flex spaceBetween">
             <!-- &#9749; &#9982;  -->
             <h1 class="titleName marginLeft1">&#9982; NOCHE DIA COFFEE</h1>
-            <div class="flex alignCenter marginRight1">
+            <div class="flex alignCenter marginRight1 standardNav">
                 <a class="navAnchor" href="#menu">Menu</a>
                 <a class="navAnchor" href="#location">Location</a>
-                <a class="navAnchor" href="#instagram">Instagram</a>
+                <a class="navAnchor" target="_blank" href="https://www.instagram.com/noche_dia_coffee/">Instagram</a>
+            </div>
+            <div class="dropDownContainer">
+                <a href="#dropbtn" onclick="dropFunction()" class="dropbtn">&#9776;</a> <!-- &#x2630; symbol looks like hamburger &#9776; new symbol? -->
             </div>
         </div>
     </nav>
+    <div id="myDropDown" class="dropdownContent">
+        <a href="#menu">Menu</a>
+        <a href="#location">Location</a>
+        <a target="_blank" href="https://www.instagram.com/noche_dia_coffee/">Instagram</a>
+    </div>
     
     <div class="introBG">
+        <!-- <div id="myDropDown" class="dropdownContent">
+            <a href="#menu">Menu</a>
+            <a href="#location">Location</a>
+            <a target="_blank" href="https://www.instagram.com/noche_dia_coffee/">Instagram</a>
+        </div> -->
         <div class="flex intro-container spaceCenter">
             <div class="width1 margin1">
                 <h1 class="tagline">The best coffee in Pomona</h1>
@@ -143,6 +156,24 @@
     }
 
 
+
+
+    function dropFunction() {
+  document.getElementById("myDropDown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropDownContent");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
 
     </script>
 </body>

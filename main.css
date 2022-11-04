@@ -91,6 +91,9 @@ body {
 .introBG {
     background-color: rgb(224, 227, 229);
     margin-top: 2rem;
+    position: relative;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 .spaceAround {
     justify-content: space-around;
@@ -126,6 +129,38 @@ body {
     padding-top: 1.5rem;
 }
 
+
+
+/* Mobile Navigation */
+.dropDownContainer {
+    display: none;
+    position: relative;
+}
+.dropbtn {
+    font-size: 180%;
+    color: white;
+    text-decoration: none;
+    padding: 1.5rem;
+}
+.dropdownContent {
+    display: none; 
+    position: absolute;
+    z-index: 1;
+    right: 0;
+}
+.dropdownContent a {
+    display: block; 
+    background-color: white; 
+    color: black; 
+    font-size: 200%; 
+    width: 20rem;
+    /* padding: .5rem 1rem; */
+    text-decoration: none;
+}
+.show {
+    display: block;
+}
+
     
 /* Media Queries */
 @media (max-width: 875px) {
@@ -142,14 +177,12 @@ body {
     }
 }
 
-@media only screen and (max-width: 680px) {
-    .standardNav a {
+@media only screen and (max-width: 1280px) {
+    .standardNav {
         display: none;
     }
-    .dropdownContainer {
+    .dropDownContainer {
         display: block;
-        margin-right: 10%;
-        margin-top: 1.5rem;
     }  
 }
 
