@@ -142,13 +142,13 @@ body {
     text-decoration: none;
     padding: 1.5rem;
 }
-.dropdownContent {
+.dropDownContent {
     display: none; 
     position: absolute;
     z-index: 1;
     right: 0;
 }
-.dropdownContent a {
+.dropDownContent a {
     display: block; 
     background-color: white; 
     color: black; 
