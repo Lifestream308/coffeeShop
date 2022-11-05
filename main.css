@@ -23,6 +23,7 @@ body {
 .titleName {
     margin-top: .5rem;
     margin-bottom: .5rem;
+    color: white;
 }
 .tagline {
     margin: 0;
