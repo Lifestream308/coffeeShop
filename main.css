@@ -84,6 +84,9 @@ body {
 .margin2 {
     margin: 1rem 2rem 2rem 2rem;
 }
+.margin3 {
+    margin: 2rem 2rem 0 2rem;
+}
 .padding1 {
     padding: 2rem;
 }
@@ -129,6 +132,12 @@ body {
 #menu {
     margin: 0;
     padding-top: 1.5rem;
+}
+.gradient1 {
+    background-image: linear-gradient(white 99.7%, rgb(211, 211, 211));
+}
+.footer {
+background-color: rgb(224, 227, 229);
 }
 
 
