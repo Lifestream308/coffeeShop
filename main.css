@@ -6,6 +6,7 @@
 }
 html {
     scroll-behavior: smooth;
+    height: 100%;
 }
 body {
     height: 100%; width: 100%;
@@ -138,6 +139,18 @@ body {
 }
 .footer {
 background-color: rgb(224, 227, 229);
+}
+/* .parallaxContainer {
+    height: 100%;
+} */
+.parallax1 {
+    background-image: url(images/nochedia4.jfif);
+    /* height: 100%; */
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
 }
 
 
