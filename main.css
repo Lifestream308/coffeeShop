@@ -88,8 +88,14 @@ body {
 .margin3 {
     margin: 2rem 2rem 0 2rem;
 }
+.margin4 {
+    margin: 0 2rem;
+}
 .padding1 {
     padding: 2rem;
+}
+.padding2 {
+    padding: 2rem 0rem;
 }
 .paddingTop1 {
     padding-top: 2rem;
