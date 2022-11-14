@@ -34,7 +34,9 @@ body {
     color: rgb(72, 72, 72);
     font-weight: normal;
 }
-
+.font1 {
+    font-family: 'Roboto', sans-serif;
+}
 .flex {
     display: flex;
 }
