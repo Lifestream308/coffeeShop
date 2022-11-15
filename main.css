@@ -35,7 +35,7 @@ body {
     font-weight: normal;
 }
 .font1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Pacifico', 'Roboto', sans-serif;
 }
 .flex {
     display: flex;
@@ -76,7 +76,7 @@ body {
     min-width: 200px;
 }
 .width2 {
-    min-width: 300px;
+    min-width: 350px;
 }
 .marginTop1 {
     margin-top: 3rem;
@@ -159,6 +159,9 @@ background-color: rgb(224, 227, 229);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.lineHeight1 {
+    line-height: 160%;
 }
 
 
