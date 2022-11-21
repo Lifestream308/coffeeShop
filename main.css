@@ -170,6 +170,7 @@ background-color: rgb(224, 227, 229);
 .dropDownContainer {
     display: none;
     position: relative;
+    margin-top: .5rem;
 }
 .dropbtn {
     font-size: 180%;
@@ -217,6 +218,13 @@ background-color: rgb(224, 227, 229);
       text-align: center;
     }
   }
+
+@media (max-width: 925px) {
+    .since {
+      display: none;
+    }
+  }
+
 @media (max-width: 750px) {
     .drinkContainer {
         flex-wrap: wrap;
